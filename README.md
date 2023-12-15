@@ -37,7 +37,7 @@ This is very important that both files have the exact same user and password due
 
    ```docker    
     docker-compose up -d
-    ```
+     ```
 
 
 ## Access the Application
