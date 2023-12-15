@@ -52,11 +52,11 @@ Notes
 
 ## Stopping the Containers
 
-To stop all containers, use:
+1. To stop all containers, use:
 
-```docker      
-docker-compose down
-``` 
+    ```docker      
+    docker-compose down
+     ``` 
 
 # Contributing
 
