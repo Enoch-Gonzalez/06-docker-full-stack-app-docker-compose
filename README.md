@@ -54,9 +54,9 @@ Notes
 
 To stop all containers, use:
 
-    ```docker      
-    docker-compose down
-    ``` 
+```docker      
+docker-compose down
+``` 
 
 # Contributing
 
