@@ -18,15 +18,13 @@ Before you begin, ensure you have Docker and Docker Compose installed on your sy
 
 Before running the Docker-Compose file make sure to provide the required credentials by creating a mongo.env file in the Env directory. Example content:
 
-MONGO_INITDB_ROOT_USERNAME = `<your-user>`
-
-MONGO_INITDB_ROOT_PASSWORD = `<your-password>`
+**MONGO_INITDB_ROOT_USERNAME**=`<your-user>`
+**MONGO_INITDB_ROOT_PASSWORD**=`<your-password>`
 
 Ensure you've provided the required environment variables by creating a backend.env file in the Env directory. Example content:
 
-MONGO_INITDB_ROOT_USERNAME = `<your-user>`
-
-MONGO_INITDB_ROOT_PASSWORD = `<your-password>`
+**MONGO_INITDB_ROOT_USERNAME**=`<your-user>`
+**MONGO_INITDB_ROOT_PASSWORD**=`<your-password>`
 
 This is very important that both files have the exact same user and password due to this is the way to authenticate the access of the backend to the database.
 
